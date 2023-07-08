@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBJ Soccer League Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1a369be517.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+</head>
+<body onload="changeImg()">
+
+    <!-- Navbar Section/Scores Table -->
+    <header class="primary-header flex">
+        <nav class="navbar">
+                <a href="" id="navbar_logo"><i class="fa-solid fa-futbol"></i>League</a>
+                <div class="nav_links">
+                    <ul id="primary-nav" class="primary-nav flex">
+                        <li><a href="">Home</a></li>
+                        <li><a href="https://www.youtube.com/@PB_J-ix6vy">Videos</a></li>
+                        <li><a href="">Matches</a></li>
+                        <li><a href="">Players</a></li>
+                        <li><a href="">Stats</a></li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+    <!-- Background Banner -->
+    <div class="banner">
+        <div class="slide_animation">
+          <img id="slide_img" src="images/img1.jpg">
+        </div>
+        <div class="video-container">
+          <div class="video">
+            <p class="video_header">Latest Video</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4pmA5WREPeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      
+    
+
+    <script src="main.js"></script>
+    
+
+
+    
+    
+
+    
+
+    
+    
+</body>
+</html>
