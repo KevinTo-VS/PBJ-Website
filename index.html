@@ -1,66 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PBJ Soccer League Website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/1a369be517.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PBJ Soccer League Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1a369be517.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
 </head>
 <body onload="changeImg()">
 
-    <!-- Navbar Section/Scores Table -->
-    <header class="primary-header flex">
-        <nav class="navbar">
-                <a href="" id="navbar_logo"><i class="fa-solid fa-futbol"></i>League</a>
-                <div class="nav_links">
-                    <ul id="primary-nav" class="primary-nav flex">
-                        <li><a href="">Home</a></li>
-                        <li><a href="https://www.youtube.com/@PB_J-ix6vy">Videos</a></li>
-                        <li><a href="">Matches</a></li>
-                        <li><a href="">Players</a></li>
-                        <li><a href="">Stats</a></li>
-                    </ul>
-                </div>
-        </nav>
-    </header>
+    <!-- Navbar Section -->
+    <section class="top-nav">
+      <div>
+        <a href="" id="navbar_logo"><i class="fa-solid fa-futbol"></i>League</a>
+      </div>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-button-container">
+      <div class="menu-button"></div>
+    </label>
+      <ul class="menu">
+        <li><a href="">Home</a></li>
+        <li><a href="https://www.youtube.com/@PB_J-ix6vy">Videos</a></li>
+        <li><a href="">Matches</a></li>
+        <li><a href="">Players</a></li>
+        <li><a href="">Stats</a></li>
+      </ul>
+    </section>
+
+
 
     <!-- Background Banner -->
-    <div class="banner">
-      <div class="video-container">
-        <div class="video">
-          <h3 class="video_header">Latest Video</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/4pmA5WREPeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="background_container">
+      <div class="banner">
+        <div class="video-container">
+          <div class="video">
+            <h3 class="video_header">Latest Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4pmA5WREPeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
-      </div>
-      <div class="schedule_container">
-        <h3 class="video_header">Matches</h3>
-        <div class="schedule_board"></div>
-          <ul class="matches_list">
-            <li>
-              <span class="match-date">July 27</span>
-              <span class="match-teams">Team A vs Team B</span>
-            </li>
-            <li>
+        <div class="schedule_container">
+          <h3 class="video_header">Matches</h3>
+          <div class="schedule_board"></div>
+            <ul class="matches_list">
+              <li>
+                <span class="match-date">TBD</span>
+                <span class="match-teams">Team A vs Team B</span>
+              </li>
+              <li>
+                <span class="match-date">TBD</span>
+                <span class="match-teams">Team A vs Team B</span>
+              </li>
+              <li>
               <span class="match-date">TBD</span>
               <span class="match-teams">Team A vs Team B</span>
-            </li>
-            <li>
-            <span class="match-date">TBD</span>
-            <span class="match-teams">Upcoming Match</span>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-    <div class="slide_animation">
-      <img id="slide_img" src="images/img1.jpg">
-    </div>
-    
-    
-      
-    
+      <div class="slide_animation">
+        <img id="slide_img" src="images/img1.jpg">
+      </div>
+      <div class="bubbles">
+        <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:23;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:22;"></span>
+        <span style="--i:25;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:21;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:26;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:28;"></span>
+        <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:23;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:22;"></span>
+        <span style="--i:25;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:21;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:26;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:28;"></span>
+        
+      </div>
 
     <script src="main.js"></script>
     
