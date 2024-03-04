@@ -2,7 +2,7 @@
 
 ## Description
 
-This website is used to keep track of players, stats, and matches in a friendly soccer league. The website also displays the latest league match uploaded on the website to showcase the keep track of the most recent game played.
+This website is used to keep track of players, stats, and matches in a friendly soccer league. The website also displays the latest league match uploaded on the website to showcase the most recent game played.
 
 ## Feautures
 
