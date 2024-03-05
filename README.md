@@ -12,7 +12,7 @@ This website is used to keep track of players, stats, and matches in a friendly 
 
 ## Credits
 
-Image Credits: [Unsplash] (https://unsplash.com/)
+Image Credits: [Unsplash] (https://unsplash.com/) (https://github.com/KevinTo-VS/PBJ-Website/tree/main/images)
 
 
 
